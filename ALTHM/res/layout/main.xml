@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_centerInParent="true"
+		android:src="@drawable/background" />
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:text="@string/althm" />
+		
+	<Button android:id="@+id/buttonWeb"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_above="@+id/emptyOne"
+		android:text="@string/button_web"
+		android:onClick="web" />
+		
+	<TextView android:id="@id/emptyOne"
+		android:layout_width="fill_parent"
+		android:layout_height="25dp"
+		android:layout_centerHorizontal="true"
+		android:layout_above="@+id/buttonLive"
+		android:text="@string/empty" />
+		
+	<Button android:id="@id/buttonLive"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="@string/button_live"
+		android:onClick="live"/>
+		
+	<TextView android:id="@+id/emptyTwo"
+		android:layout_width="fill_parent"
+		android:layout_height="25dp"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/buttonLive"
+		android:text="@string/empty" />
+		
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/emptyTwo"
+		android:text="@string/button_bible"
+		android:onClick="bible"/>
+			
+</RelativeLayout>

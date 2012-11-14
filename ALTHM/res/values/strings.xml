@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="althm">Abundant Life The House Of Mercy</string>
+	<string name="empty"> </string>
+	<string name="button_web">Abundant Life Web Site</string>
+	<string name="button_live">Abundant Life Live Stream</string>
+	<string name="button_bible">King James Version Bible</string>
+    <string name="app_name">ALTHM</string>
+	<string name="web_name">ALTHM Web</string>
+	<string name="live_name">ALTHM Live</string>
+	<string name="bible_name">KJV Bible</string>
+	<string name="playing">Playing...</string>
+
+</resources>
